@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Dominik Linn | Personal blog</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Dominik Linn | Personal blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GoMAX</title>
+      <link>http://localhost:1313/projects/gomax/</link>
+      <pubDate>Sun, 01 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gomax/</guid>
+      <description>Multivariate array expressions and automatic differentiation in Go.</description>
+    </item>
+    <item>
+      <title>Go Trader</title>
+      <link>http://localhost:1313/projects/gotrader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gotrader/</guid>
+      <description>Algorithmic trading</description>
+    </item>
+    <item>
+      <title>Hypertag</title>
+      <link>http://localhost:1313/projects/hypertag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/hypertag/</guid>
+      <description>Link to code symbols instead of line numbers</description>
+    </item>
+    <item>
+      <title>Nope</title>
+      <link>http://localhost:1313/projects/nope/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/nope/</guid>
+      <description>AI research and coding assistant loop using nono, pi agent, and Go</description>
+    </item>
+  </channel>
+</rss>

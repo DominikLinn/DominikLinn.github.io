@@ -1,0 +1,28 @@
+{{/* Grab current section pages explicitly to preserve intended order */}}
+{{ $pages := .CurrentSection.Pages }}
+
+<nav class="post-nav">
+  {{/* Newer / Previous Article */}}
+  {{- with $pages.Next . }}
+  <a class="prev" href="{{ .RelPermalink }}">
+    <span class="title">« {{ i18n "prev_page" | default "Previous" }}</span>
+    <span>{{ .LinkTitle }}</span>
+  </a>
+  {{- end }}
+
+  {{/* Parent Section Page */}}
+  {{- with .CurrentSection }}
+  <a class="parent" href="{{ .RelPermalink }}">
+    <span class="title">{{ i18n "section_index" | default "Section Index" }}</span>
+    <span>{{ .LinkTitle }}</span>
+  </a>
+  {{- end }}
+
+  {{/* Older / Next Article */}}
+  {{- with $pages.Prev . }}
+  <a class="next" href="{{ .RelPermalink }}">
+    <span class="title">{{ i18n "next_page" | default "Next" }} »</span>
+    <span>{{ .LinkTitle }}</span>
+  </a>
+  {{- end }}
+</nav>

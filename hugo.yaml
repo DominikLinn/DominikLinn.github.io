@@ -1,0 +1,53 @@
+baseURL: https://DominikLinn.github.io/
+locale: en-us
+title: Dominik Linn | Personal blog
+author: Me
+theme: PaperMod
+keywords: [Blog, Portfolio, Tech, Mathematics]
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  defaultTheme: light
+  disableThemeToggle: true
+  
+  # Keep layout wide, simple, and legible
+  style:
+    disableScrollToTop: true
+
+  # Strip down header/footer noise
+  ShowBreadCrumbs: false
+  ShowReadingTime: false
+  ShowCodeCopyButtons: true
+  ShowShareButtons: true
+
+  showSummary: true
+  useHugoPageSummary: false
+
+  # Profile / Home Page settings (if using home profile)
+  homeInfoParams:
+    
+  profileMode:
+    enabled: true
+    Title: "Dominik Linn, Ph.D."
+    SubTitle: "Senior Systems & Software Engineer. Real-time systems, distributed Go microservices, and high-performance C++ compute."
+    # imageUrl: "<image link>" # optional
+    # imageTitle: "<title of image as alt>" # optional
+    # imageWidth: 120 # custom size
+    # imageHeight: 120 # custom size
+    buttons:
+      #- name: Posts
+      #  url: "/posts"
+      #- name: Projects
+      #  url: "/projects"
+      #- name: CV
+      #  url: "/cv"
+
+  socialIcons: # optional
+    - name: github
+      url: "https://github.com/DominikLinn"
+    - name: ORDCID
+      url: "https://orcid.org/0000-0003-1068-8235"
+    - name: LinkedIn
+      url: "https://www.linkedin.com/in/dominik-linn-a6a75318a/"
+    - name: ResearchGate
+      url: "https://www.researchgate.net/profile/Dominik-Linn"
